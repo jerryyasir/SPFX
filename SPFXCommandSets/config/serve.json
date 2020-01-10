@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://sharepointmvp.sharepoint.com/obaidtest/Lists/Test/AllItems.aspx",
+      "customActions": {
+        "4ba9ca61-215e-4245-9a30-29acf7074c46": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list in default config",
+            "sampleTextTwo": "This command is always visible.in default config"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://sharepointmvp.sharepoint.com/obaidtest/Lists/Test/AllItems.aspx",
+      "customActions": {
+        "4ba9ca61-215e-4245-9a30-29acf7074c46": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

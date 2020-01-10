@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://campbellsoup.sharepoint.com/sites/jdev/ModernTeamSite",
+      "customActions": {
+        "01a109c1-4a9d-4642-b416-6f5858bf8515": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "header": "Welcome to Header",
+            "footer": "Welcome to Fotter"
+          }
+        }
+      }
+    },
+    "helloAppCustomizer": {
+      "pageUrl": "https://campbellsoup.sharepoint.com/sites/jdev/ModernTeamSite",
+      "customActions": {
+        "01a109c1-4a9d-4642-b416-6f5858bf8515": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "header": "Welcome to Header",
+            "footer": "Welcome to Fotter"
+          }
+        }
+      }
+    }
+  }
+}

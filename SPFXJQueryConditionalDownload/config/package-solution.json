@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxj-query-conditional-download-client-side-solution",
+    "id": "5dfdcae0-d670-4bcc-9741-a80df677cc20",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxj-query-conditional-download.sppkg"
+  }
+}

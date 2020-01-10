@@ -1,0 +1,29 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxassets-client-side-solution",
+    "id": "3078b0ce-8e54-4d88-bc7f-187241cc8237",
+    "version": "7.0.0.0",
+    "includeClientSideAssets": true,
+    "features": [{
+      "title":"spfx feature",
+      "id": "ebed2258-c307-41a6-bfab-9dac0a29ade5",
+      "description": "SPFx feature provision",
+      "version": "7.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml"
+        ],
+        "elementFiles": [
+          "schema.xml"
+        ],
+        "upgradeActions": [
+          "upgrade-actions-v2.xml"
+        ]
+      }
+    }]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxassets.sppkg"
+  }
+}

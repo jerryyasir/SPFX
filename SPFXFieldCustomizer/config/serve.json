@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://campbellsoup.sharepoint.com/sites/jdev/ModernTeamSite/Lists/Field%20Customizer/AllItems.aspx",
+      "fieldCustomizers": {
+        "PercentComplete": {
+          "id": "134f2c0c-bb83-4b50-b393-c50f97e29a6b",
+          "properties": {
+            "greenMinLimit": "85",
+            "yellowMinLimit": "70"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://campbellsoup.sharepoint.com/sites/jdev/ModernTeamSite/Lists/Field%20Customizer/AllItems.aspx",
+      "fieldCustomizers": {
+        "PercentComplete": {
+          "id": "134f2c0c-bb83-4b50-b393-c50f97e29a6b",
+          "properties": {
+            "greenMinLimit": "85",
+            "yellowMinLimit": "70"
+          }
+        }
+      }
+    }
+  }
+}
